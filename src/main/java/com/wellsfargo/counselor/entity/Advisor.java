@@ -8,7 +8,6 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Advisor {
-
     @Id
     @GeneratedValue()
     private long advisorId;
